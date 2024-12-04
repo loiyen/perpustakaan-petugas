@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kartu Perpustakaan</title>
+
+        <style>
+        body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.library-card {
+    width: 550px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-header {
+    background-color: #6366ff;
+    color: white;
+    padding: 10px 0;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    margin-left: 10px;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+p{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-info {
+    text-align: left;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.card-info p {
+    margin: 5px 0;
+}
+
+.card-barcode {
+    margin: 20px 0;
+}
+
+.card-footer {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+    </style>
+    </head>
+    <body>
+        <div class="library-card">
+            <div class="card-header">
+                <h1>PERPUSTAKAAN SMA N 1 KRAYAN</h1>
+            </div>
+            <div class="card-body">
+                <img src="https://via.placeholder.com/100"
+                    alt="Foto Pemegang Kartu" class="profile-picture">
+                <div class="card-info">
+                    <p><strong>Nama :</strong> John Doe</p>
+                    <p><strong>Nomor Kartu :</strong> 1234567890</p>
+                    <p><strong>kelas :</strong> X</p>
+                    <p><strong>Angkatan :</strong> 2024</p>
+                    
+                </div>
+            </div>
+            <div class="card-barcode">
+                <img src="https://via.placeholder.com/150x50" alt="Barcode">
+            </div>
+            <div class="card-footer">
+                <p>Alamat: Jl. Merdeka No. 10, Krayan</p>
+                <p>Telepon: (021) 123-4567</p>
+            </div>
+        </div>
+    </body>
+</html>
